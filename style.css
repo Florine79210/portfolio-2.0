@@ -1,0 +1,98 @@
+/* COMMUN A TOUTE LA PAGE */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50vw;
+    border: black double 5px;
+    border-radius: 35px;
+    
+}
+
+span {
+    font-weight: bold;
+}
+
+ ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* BIENVENU */
+/* ================================================================= */
+
+#bienvenu {
+    text-align: center;
+}
+
+
+/* A PROPOS */
+/* ================================================================= */
+
+#photo-portrait {
+    width: 20vw;
+    border-radius: 35px;
+}
+
+.it {
+    font-style: italic;
+    font-weight: initial;
+}
+
+/* PROJETS */
+/* ================================================================= */
+
+.projet {
+    background-color: red;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.projet a img {
+    width: 15vw;
+    border-radius: 35px;
+    margin-bottom: 10px;
+}
+
+.img-flooop {
+    background-color: #fff;
+}
+
+.logo-competence {
+    width: 5vw;
+    border-radius: 100%;
+}
+
+/* COMPETENCES */
+/* ================================================================= */
+
+
+
+/* CONTACEZ-MOI */
+/* ================================================================= */
+
+.resaux {
+    text-align: center;
+}
+
+a i {
+    color: red;
+    font-size: 80px;
+}
