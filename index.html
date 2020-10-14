@@ -10,6 +10,7 @@
 
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lily+Script+One&family=Pinyon+Script&display=swap" rel="stylesheet"> 
             <link rel="stylesheet" href="style.css">
 
 
@@ -22,9 +23,23 @@
                <!-- NAVBAR -->
 <!-- ======================================================================================================= -->
 
-                <nav>
+                <nav class="navbar navbar-expand-md d-flex">
 
+                    <img src="images/Logo@Ff.png">
 
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link p-3 mr-3 ml-3" href="#bienvenu"><span>Acceuil</span></a>
+                            <a class="nav-link p-3 mr-3 ml-3" href="#a-propos"><span>à propos</span></a>
+                            <a class="nav-link p-3 mr-3 ml-3" href="#projets"><span>projets</span></a>
+                            <a class="nav-link p-3 mr-3 ml-3" href="#competences"><span>compétences</span></a>
+                            <a class="nav-link p-3 mr-3 ml-3" href="#contact"><span>contact</span></a>
+                        </div>
+                    </div>
 
                 </nav>
 
@@ -32,9 +47,7 @@
                 <!-- BIENVENU -->
 <!-- ======================================================================================================= -->
 
-                <div id="bienvenu">
-
-                    <div class="container">
+                    <div id="bienvenu" class="container mt-5">
 
                         <div class="row">
                             <div class="col-md-12">
@@ -45,17 +58,14 @@
                         </div>
 
                     </div>
-                </div>
 
             </header>
+
 
                 <!-- A PROPOS -->
 <!-- ======================================================================================================= -->
 
-
-                <div>
-
-                    <div class="container">
+                    <div id="a-propos" class="container">
 
                         <div class="row">
                             <div class="col-md-12 d-flex justify-content-center m-5" >
@@ -88,14 +98,12 @@
                         </div>
 
                     </div>
-                </div>
+
 
                 <!-- PROJETS -->
 <!-- ======================================================================================================= -->               
 
-                <div>
-
-                    <div class="container-fluid">
+                    <div id="projets" class="container-fluid">
 
                         <div class="row">
                             <div class="col-md-12 d-flex justify-content-center m-5">
@@ -108,7 +116,6 @@
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Barre de navigation Flooop</p>
-
                                 <a href="https://florine79210.github.io/Flooop/."><img class="img-flooop" src="images/photos de projets/flooop 390x390.png" alt="logo de Flooop"></a>
 
                                 <div class="row">
@@ -127,7 +134,6 @@
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Carte de visite de John DOE</p>
-
                                 <a href="https://florine79210.github.io/carte-de-visite-jhon-doe/."><img src="images/photos de projets/carte de visite 390x390.png" alt="photo de le carte de visite"></a>
 
                                 <div class="row">
@@ -146,7 +152,6 @@
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Site de Kome Waza</p>
-
                                 <a href="https://florine79210.github.io/Kome-Waza/."><img src="images/photos de projets/logo-kome-waza -390x390.jpg" alt="logo de Kome Waza"></a>
 
                                 <div class="row">
@@ -169,7 +174,6 @@
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Site de thé</p>
-
                                 <a href="https://florine79210.github.io/site-the/."><img src="images/photos de projets/thé 390x390.png" alt="photo de thé"></a>
 
                                 <div class="row">
@@ -188,7 +192,6 @@
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Portefolio n°1</p>
-
                                 <a href="https://florine79210.github.io/portfolio-en-html-css/."><img src="images/photos de projets/logo portfolio fond blanc.png" alt="logo Ff"></a>
 
                                 <div class="row">
@@ -205,41 +208,57 @@
                             </div>
 
                     </div>
-                </div>
-
-
 
 
                <!-- COMPETENCES -->
 <!-- ======================================================================================================= -->
 
-                <div>
-
-                    <div class="container">
+                    <div id="competences" class="container">
 
                         <div class="row">
                             <div class="col-md-12 d-flex justify-content-center m-5">
                                 <h3>compétences</h3>
                             </div>
                         </div>
+                        
 
-                        <div class="row d-flex justify-content-center">
+<!-- ++++++++++++++++++++++++++++! TEST CERCLE DE PROGRESSION !+++++++++++++++++++++++++++++++++++++++++++ -->
+                           
+                        <div class="row cercles f-flex justify-content-center">   
+
+                            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center pl-5">
+
+                                <div class="progress-circle" data-value=75>
+                                    <div class="progress-masque">
+                                        <div class="progress-barre"></div>
+                                        <div class="progress-sup50"></div>
+                                    </div>
+                                </div>
+
+                                <p>75%</p>
+                            </div>
+
+                            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center pr-5">
+
+                                <div class="progress-circle" data-value=75>
+                                    <div class="progress-masque">
+                                        <div class="progress-barre"></div>
+                                        <div class="progress-sup50"></div>
+                                    </div>
+                                </div>
+
+                                <p>75%</p>
+                            </div>
 
                         </div>
 
                     </div>
-                </div>
-
-
-
 
 
                <!-- CONTACTEZ-MOI -->
 <!-- ======================================================================================================= -->
 
-                <div>
-
-                    <div class="container-fluid">
+                    <div id="contact" class="container">
 
                         <div class="row">
                             <div class="col-md-12 d-flex justify-content-center m-5">
@@ -249,37 +268,35 @@
 
                         <div class="row">
 
-                            <div class="col-md-4 resaux">
-                                <a src="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
-                            </div>
-
-                            <div class="col-md-4 resaux">
-                                <a src="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
-                            </div>
-
-                            <div class="col-md-4 resaux">
-                                <a src="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                            <div class="col-md-12 resaux">
+                                <a src="https://www.facebook.com"><i class="fab fa-facebook-square mt-0 mr-5 mb-3 ml-5"></i></a>
+        
+                                <a src="https://www.twitter.com"><i class="fab fa-twitter-square mt-0 mr-5 mb-3 ml-5"></i></a>
+                           
+                                <a src="https://www.linkedin.com"><i class="fab fa-linkedin mt-0 mr-5 mb-3 ml-5"></i></a>
                             </div>
 
                         </div>
 
-                        <div class="row">
+                        <div class="row infos-contact">
 
-                            <div class="col-md-6 liste">
-                                <ul>
-                                    <li><i class="far fa-envelope"></i></i> : flo.fradet@gmail.com</li>
+                            <div class="col-md-5 liste">
+                                <ul class="phone-mail d-flex flex-column align-items-center justify-content-center">
+                                    <li><i class="far fa-envelope"></i> : flo.fradet@gmail.com</li>
                                     <li><i class="fas fa-phone-volume"></i> : 06 40 72 72 74</li>
                                 </ul>
                             </div>
 
-                            <div class="col-md-4 offset-2">
-
+                            <div class="col-md-5 offset-2">
+                                <ul class="locatisation d-flex flex-column align-items-center justify-content-center">
+                                    <li>Je suis ici.</li>
+                                    <li><a href="https://goo.gl/maps/7fdGhY1yfybzzvB9A"><i class="fas fa-map-marked-alt"></i></a></li>
+                                </ul>
                             </div>
 
                         </div>
 
                     </div>
-                </div>
 
 
 
@@ -288,10 +305,8 @@
                <!-- FOOTER -->
 <!-- ======================================================================================================= -->
 
-            <footer>
-
-
-                
+            <footer  class="d-flex justify-content-center">
+                <p class="align-self-center"><span>© Florine FRADET</span> &emsp; Portfolio</p> 
             </footer>
 
         </body>

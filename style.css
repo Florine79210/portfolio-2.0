@@ -35,6 +35,34 @@ span {
 }
 
 
+/* NAVBAR */
+/* ================================================================= */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.86);
+    width: 100vw;
+    height: 30vh;
+    position: fixed;
+}
+
+nav img {
+    width: 25vw;
+}
+
+.navbar-nav a {
+    color:green;
+    font-size: 30px;
+    border: outset white 5px;
+    border-radius: 35px;
+}
+
+.navbar-nav a:hover {
+    border-style: inset;
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+
+
 /* BIENVENU */
 /* ================================================================= */
 
@@ -84,6 +112,78 @@ span {
 /* ================================================================= */
 
 
+/* ++++++! CERCLE DE PROGRESSION !+++++ */
+
+/* vvvv!!!! Cercle de fond !!!!vvvv */
+.progress-circle {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 15em;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: .15em solid black;
+    background-image: url(images/logos-compétences/html5.png);
+    background-size: cover;
+}
+
+/* vvvv!!!! Fenetre d'affichage !!!!vvvv */
+.progress-masque {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: -.15em;
+    top: -.15em;
+    clip: rect(0, 1em, 1em, .5em);
+}
+
+.progress-circle[data-value^='5']:not([data-value='5']):not([data-value^='5.']) .progress-masque,
+.progress-circle[data-value^='6']:not([data-value='6']):not([data-value^='6.']) .progress-masque,
+.progress-circle[data-value^='7']:not([data-value='7']):not([data-value^='7.']) .progress-masque,
+.progress-circle[data-value^='8']:not([data-value='8']):not([data-value^='8.']) .progress-masque,
+.progress-circle[data-value^='9']:not([data-value='9']):not([data-value^='9.']) .progress-masque,
+.progress-circle[data-value^='100'] .progress-masque {
+  clip: rect(auto, auto, auto, auto);
+}
+
+/* vvvv!!!! Barre de progression !!!!vvvv */
+.progress-barre,
+.progress-sup50 {
+    position: absolute;
+    box-sizing: border-box;
+    border-width: .15em;
+    border-style: double;
+    border-color: blue;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    clip: rect(0, .5em, 1em, 0)
+}
+
+/* permet de visualiser la valeur de la progression */
+.progress-circle[data-value="75"]    .progress-barre,
+.progress-circle[data-value="75."]   .progress-barre,
+.progress-circle[data-value="75.0"]  .progress-barre {transform: rotate(270.00deg)}
+
+/* vvvv!!!! Barre sup ou = a 50% !!!!vvvv */
+.progress-sup50 {
+    display: none;
+    clip: rect(0, 1em, 1em, .5em);
+}
+
+.progress-circle[data-value^='7']:not([data-value='7']):not([data-value^='7.']) .progress-sup50,
+.progress-circle[data-value^='8']:not([data-value='8']):not([data-value^='8.']) .progress-sup50,
+.progress-circle[data-value^='9']:not([data-value='9']):not([data-value^='9.']) .progress-sup50,
+.progress-circle[data-value^='100'] .progress-sup50 {
+    display:block;
+}
+
+.cercles p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
 
 /* CONTACEZ-MOI */
 /* ================================================================= */
@@ -92,7 +192,26 @@ span {
     text-align: center;
 }
 
-a i {
+.resaux a i {
     color: red;
     font-size: 80px;
+}
+
+
+.infos-contact ul {
+    width: 30vw;
+    height: 20vh;
+    border: black solid 5px;
+    border-radius: 35%;
+    background-color: red;
+}
+
+
+/* FOOTER */
+/* ================================================================= */
+
+footer {
+    height:15vh;
+    background-color: black;
+    color: #fff;
 }
