@@ -5,23 +5,30 @@ body {
 }
 
 h1 {
-    font-size: 45px;
+    font-family: "Playball", Georgia, serif; 
+    font-size: 55px;
     font-weight: bold;
+    color: #000000;
 }
 
 h2 {
-    font-size: 35px;
+    font-family: "Playball", Georgia, serif; 
+    font-size: 40px;
     font-weight: bold;
+    color: #000000;
 }
 
 h3 {
+    font-family: "Lobster two", Georgia, serif;
     font-size: 40px;
     font-weight: bold;
-    text-transform: uppercase;
+    color: #000000;
+    /* text-transform: uppercase; */
     text-align: center;
     width: 50vw;
-    border: black double 5px;
+    border: #000000 outset 5px;
     border-radius: 35px;
+    background-color: #919191;
     
 }
 
@@ -39,20 +46,21 @@ span {
 /* ================================================================= */
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.86);
+    background-color: #919191;
     width: 100vw;
-    height: 30vh;
+    height: 25vh;
     position: fixed;
 }
 
 nav img {
-    width: 25vw;
+    width: 20vw;
 }
 
 .navbar-nav a {
-    color:green;
+    color: #000000;
+    font-family: "Lobster two", Georgia, serif;
     font-size: 30px;
-    border: outset white 5px;
+    border: outset #ffffff 5px;
     border-radius: 35px;
 }
 
@@ -125,6 +133,11 @@ nav img {
     border: .15em solid black;
     background-image: url(images/logos-compétences/html5.png);
     background-size: cover;
+}
+
+.progress-circle-2 {
+    background-image: url(images/logos-compétences/css3.png);
+
 }
 
 /* vvvv!!!! Fenetre d'affichage !!!!vvvv */
@@ -212,6 +225,7 @@ nav img {
 
 footer {
     height:15vh;
-    background-color: black;
-    color: #fff;
+    background-color: #919191;
+    font-family: "Playball", Georgia, serif; 
+    color: #000000;
 }
