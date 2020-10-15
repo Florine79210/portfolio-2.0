@@ -19,9 +19,9 @@ body {
 }
 
 .fond-commun {
-    border: #ffffff initial 1px;
     border-radius: 35px;
     background-color: #ffffff;
+    border: outset #555555 6px;
 }
 
 h1 {
@@ -78,11 +78,11 @@ span {
 
 .navbar {
     background-color: #919191;
-    height: 25vh;
+    height: 20vh;
 }
 
 nav img {
-    width: 20vw;
+    height: 20vh;
 }
 
 .navbar-nav a {
@@ -113,14 +113,22 @@ nav img {
     text-align: center;
 }
 
+#bienvenu .fond-commun {
+    width: 40vw;
+}
+
 
 /* A PROPOS */
 /* ================================================================= */
 
 #photo-portrait {
-    width: 20vw;
+    width: 18vw;
     border-radius: 35px;
     border: outset #555555 6px;
+}
+
+.presentation {
+    text-align: left;
 }
 
 #a-propos h2 {
@@ -268,9 +276,10 @@ nav img {
 
 
 .infos-contact ul {
-    height: 30vh;
+    height: 20vh;
+    width: 18vw;
     border: #919191 inset 3px;
-    border-radius: 35%;
+    border-radius: 35px;
     background-color: #ffffff;
 }
 
