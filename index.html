@@ -4,7 +4,7 @@
         <head>
 
             <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
             <title>Portfolio de Florine FRADET</title>
 
@@ -13,22 +13,21 @@
             <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playball&family=Sail&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="style.css">
 
-
         </head>
 
-        <body>
+        <body class="text-center">
 
             <header>
 
                <!-- NAVBAR -->
 <!-- ======================================================================================================= -->
 
-                <nav class="navbar navbar-expand-md d-flex">
+                <nav class="navbar navbar-light navbar-expand-md fixed-top d-flex">
 
                     <img src="images/logos-@Ff/Logo@Ff.png">
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                         <span class="navbar-toggler-icon"></span>
+                         <span class="navbar-toggler-icon btn"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -43,43 +42,48 @@
 
                 </nav>
 
+            </header>
+
 
                 <!-- BIENVENU -->
 <!-- ======================================================================================================= -->
 
-                    <div id="bienvenu" class="container mt-5">
+                <main class="mt-5 pt-5">
 
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1>Florine FRADET</h1>
-                                <h2>Développeuse web & web mobile</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic et, molestias pariatur cupiditate quisquam esse minima provident nesciunt accusantium nihil adipisci maxime quod unde delectus non.</p>
+                    <div id="bienvenu" class="container">
+
+                        <div class="row mb-5">
+                            <div class="col-md-8 offset-2 fond-commun mt-5 pt-5 pb-5">
+                                <h1 class="esp.ligne mt-5 mb-3">Florine FRADET</h1>
+                                <h2 class="esp.ligne mb-2" >Développeuse web & web mobile</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                                    Iste inventore blanditiis amet quisquam incidunt doloremque esse quam accusantium omnis,<br>
+                                    rerum cupiditate veritatis sed quaerat autem doloribus labore.<br>
+                                    Quos, saepe distinctio.</p>
                             </div>
                         </div>
-
+                    
                     </div>
 
-            </header>
-
-
-                <!-- A PROPOS -->
+                    
+<!-- A PROPOS -->
 <!-- ======================================================================================================= -->
-
+                   
                     <div id="a-propos" class="container">
 
                         <div class="row">
-                            <div class="col-md-12 d-flex justify-content-center m-5" >
-                                <h3>À propos</h3>
+                            <div class="col-md-12 d-flex justify-content-center">
+                                <h3 class="title p-3">À propos</h3>
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row mt-3 mb-5">
 
                             <div class="col-md-3">
                                 <img id="photo-portrait" src="images/photo-de-moi.jpg" alt="photo de Florine FRADET">
                             </div>
 
-                            <div class="col-md-7 offset-2">
+                            <div class="col-md-7 offset-2 fond-commun p-3">
 
                                 <h2>Florine FRADET</h2>
 
@@ -106,25 +110,25 @@
                     <div id="projets" class="container-fluid">
 
                         <div class="row">
-                            <div class="col-md-12 d-flex justify-content-center m-5">
-                                <h3>Projets</h3>
+                            <div class="col-md-12 d-flex justify-content-center mt-3 mb-5">
+                                <h3 class="title p-3">Projets</h3>
                             </div>
                         </div>
 
-                        <div class="row d-flex justify-content-center">
+                        <div class="row d-flex justify-content-center mt-3 mb-5">
 
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Barre de navigation Flooop</p>
-                                <a href="https://florine79210.github.io/Flooop/."><img class="img-flooop" src="images/photos-de-projets/flooop.png" alt="logo de Flooop"></a>
+                                <a href="https://florine79210.github.io/Flooop/."><img class="img-flooop mb-3" src="images/photos-de-projets/flooop.png" alt="logo de Flooop"></a>
 
                                 <div class="row">
 
-                                    <div class="col-md-4 offset-2">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
                                     </div>
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
                                     </div>
 
@@ -134,15 +138,15 @@
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Carte de visite de John DOE</p>
-                                <a href="https://florine79210.github.io/carte-de-visite-jhon-doe/."><img src="images/photos-de-projets/carte-de-visite.png" alt="photo de le carte de visite"></a>
+                                <a href="https://florine79210.github.io/carte-de-visite-jhon-doe/."><img class="mb-3" src="images/photos-de-projets/carte-de-visite.png" alt="photo de le carte de visite"></a>
 
                                 <div class="row">
 
-                                    <div class="col-md-4 offset-2">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
                                     </div>
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
                                     </div>
 
@@ -152,15 +156,15 @@
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Site de Kome Waza</p>
-                                <a href="https://florine79210.github.io/Kome-Waza/."><img src="images/photos-de-projets/logo-kome-waza.jpg" alt="logo de Kome Waza"></a>
+                                <a href="https://florine79210.github.io/Kome-Waza/."><img class="mb-3" src="images/photos-de-projets/logo-kome-waza.jpg" alt="logo de Kome Waza"></a>
 
                                 <div class="row">
 
-                                    <div class="col-md-4 offset-2">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
                                     </div>
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
                                     </div>
 
@@ -174,15 +178,15 @@
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Site de thé</p>
-                                <a href="https://florine79210.github.io/site-the/."><img src="images/photos-de-projets/thé.png" alt="photo de thé"></a>
+                                <a href="https://florine79210.github.io/site-the/."><img class="mb-3" src="images/photos-de-projets/thé.png" alt="photo de thé"></a>
 
                                 <div class="row">
 
-                                    <div class="col-md-4 offset-2">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
                                     </div>
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
                                     </div>
 
@@ -192,15 +196,15 @@
                             <div class="col-sm-5 col-md-3 m-3 p-3 projet">
 
                                 <p>Portefolio n°1</p>
-                                <a href="https://florine79210.github.io/portfolio-en-html-css/."><img src="images/photos-de-projets/logo-portfolio1.png" alt="logo Ff"></a>
+                                <a href="https://florine79210.github.io/portfolio-en-html-css/."><img class="mb-3" src="images/photos-de-projets/logo-portfolio1.png" alt="logo Ff"></a>
 
                                 <div class="row">
 
-                                    <div class="col-md-4 offset-2">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/html5.png" alt="logo HTML5">
                                     </div>
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <img class="logo-competence" src="images/logos-compétences/css3.png" alt="logo CSS3">
                                     </div>
 
@@ -216,17 +220,17 @@
                     <div id="competences" class="container">
 
                         <div class="row">
-                            <div class="col-md-12 d-flex justify-content-center m-5">
-                                <h3>Compétences</h3>
+                            <div class="col-md-12 d-flex justify-content-center mt-3 mb-5">
+                                <h3 class="title p-3">Compétences</h3>
                             </div>
                         </div>
                         
 
 <!-- ++++++++++++++++++++++++++++! CERCLE DE PROGRESSION !+++++++++++++++++++++++++++++++++++++++++++ -->
                            
-                        <div class="row cercles f-flex justify-content-center">   
+                        <div class="row cercles f-flex justify-content-center mt-3 mb-5">   
 
-                            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center pl-5">
+                            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
 
                                 <div class="progress-circle" data-value=75>
                                     <div class="progress-masque">
@@ -238,7 +242,7 @@
                                 <p>75%</p>
                             </div>
 
-                            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center pr-5">
+                            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
 
                                 <div class="progress-circle progress-circle-2" data-value=75>
                                     <div class="progress-masque">
@@ -261,34 +265,38 @@
                     <div id="contact" class="container">
 
                         <div class="row">
-                            <div class="col-md-12 d-flex justify-content-center m-5">
-                                <h3>Contactez-moi</h3>
+                            <div class="col-md-12 d-flex justify-content-center mt-3 mb-5">
+                                <h3 class="title p-3">Contactez-moi</h3>
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row mt-3 mb-5">
 
-                            <div class="col-md-12 resaux">
-                                <a src="https://www.facebook.com"><i class="fab fa-facebook-square mt-0 mr-5 mb-3 ml-5"></i></a>
-        
-                                <a src="https://www.twitter.com"><i class="fab fa-twitter-square mt-0 mr-5 mb-3 ml-5"></i></a>
-                           
-                                <a src="https://www.linkedin.com"><i class="fab fa-linkedin mt-0 mr-5 mb-3 ml-5"></i></a>
+                            <div class="col-md-4 resaux mt-3 mb-3">
+                                <a src="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                            </div>
+
+                            <div class="col-md-4 resaux mt-3 mb-3">
+                                <a src="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+                            </div>
+
+                            <div class="col-md-4 resaux mt-3 mb-3">
+                                <a src="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
                             </div>
 
                         </div>
 
-                        <div class="row infos-contact">
+                        <div class="row infos-contact mb-5">
 
-                            <div class="col-md-5 liste">
+                            <div class="col-md-6">
                                 <ul class="phone-mail d-flex flex-column align-items-center justify-content-center">
-                                    <li><i class="far fa-envelope"></i> : flo.fradet@gmail.com</li>
+                                    <li><i class="far fa-envelope mb-3"></i> : flo.fradet@gmail.com</li>
                                     <li><i class="fas fa-phone-volume"></i> : 06 40 72 72 74</li>
                                 </ul>
                             </div>
 
-                            <div class="col-md-5 offset-2">
-                                <ul class="locatisation d-flex flex-column align-items-center justify-content-center">
+                            <div class="col-md-6">
+                                <ul class="localisation d-flex flex-column align-items-center justify-content-center">
                                     <li>Je suis ici.</li>
                                     <li><a href="https://goo.gl/maps/7fdGhY1yfybzzvB9A"><i class="fas fa-map-marked-alt"></i></a></li>
                                 </ul>
@@ -299,14 +307,14 @@
                     </div>
 
 
-
+                </main>
 
 
                <!-- FOOTER -->
 <!-- ======================================================================================================= -->
 
-            <footer  class="d-flex justify-content-center">
-                <p class="align-self-center"><span>© Florine FRADET</span> &emsp; Portfolio 2020</p> 
+            <footer  class="container-fluid d-flex align-items-center justify-content-center">
+                <p class="align-self-center"><span>© &ensp;Florine FRADET</span> &emsp; Portfolio 2020</p> 
             </footer>
 
         </body>
