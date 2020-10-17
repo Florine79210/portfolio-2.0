@@ -8,8 +8,9 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    /* overflow-x: hidden; */
 }
+
 
 body {
     background-image: url(../Portfolio-FF/images/backround.jpg);
@@ -114,7 +115,7 @@ nav img {
 }
 
 #bienvenu .fond-commun {
-    width: 40vw;
+    width: 50vw;
 }
 
 
@@ -230,11 +231,16 @@ nav img {
     box-sizing: border-box;
     border-width: .15em;
     border-style: double;
-    border-color: #555555;
+    border-color: #f16524;
     border-radius: 50%;
     width: 1em;
     height: 1em;
     clip: rect(0, .5em, 1em, 0)
+}
+
+.progress-barre-2,
+.progress-sup50-2 {
+    border-color: #29a9df;
 }
 
 /* permet de visualiser la valeur de la progression */
@@ -269,9 +275,16 @@ nav img {
     text-align: center;
 }
 
+
 .resaux a i {
     color: rgb(184, 3, 134);
     font-size: 120px;
+}
+
+.resaux a i:hover {
+    transform: scale(1.2);
+    transition: 1.5s;
+    color: rgb(134, 4, 97)
 }
 
 
@@ -293,6 +306,12 @@ nav img {
     font-size: 60px;
 }
 
+.localisation a i:hover {
+    transform: scale(1.2);
+    transition: 1.5s;
+    color: rgb(134, 4, 97)
+}
+
 /* FOOTER */
 /* ================================================================= */
 
@@ -310,5 +329,69 @@ footer span {
 MEDIA QUERIES
 ====================================================================== */
 
+@media screen and (max-width: 1413px) {
 
-/* @media screen and (max-width: 768px) { */
+    .infos-contact ul {
+        height: 20vh;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 847px) {
+
+    .infos-contact ul {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #bienvenu .fond-commun{
+        width: 70vw;
+    }
+
+    .title { 
+        width: 80vw;
+    }
+
+    #photo-portrait {
+        width: 30vw;
+    }
+
+    .projet a img {
+        width: 30vw;   
+    }
+
+    .competences-projet {
+        flex-wrap: nowrap;
+    }
+
+    .logo-competence {
+        width: 10vw;
+    }
+
+    .infos-contact ul {
+        width: 60vw;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .projet a img {
+        width: 60vw;
+    }
+
+    .projet a img {
+        width: 40vw;   
+    }
+
+    .logo-competence {
+        width: 15vw;
+    }
+
+    .infos-contact ul {
+        width: 75vw;
+    }
+
+}
