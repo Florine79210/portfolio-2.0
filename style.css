@@ -83,7 +83,8 @@ span {
 }
 
 nav img {
-    height: 20vh;
+    max-height: 20vh;
+    width: 15vw;
 }
 
 .navbar-nav a {
@@ -92,6 +93,7 @@ nav img {
     font-size: 35px;
     border: outset #ffffff 5px;
     border-radius: 35px;
+    background-color: #919191;
 }
 
 .navbar-nav a:hover {
@@ -103,9 +105,9 @@ nav img {
 .btn {
     font-size: 40px;
     background-color: #ffffff;
-    border: solid #555555 2px;
+    border: outset #000000 3px;
 }
-
+ 
 
 /* BIENVENU */
 /* ================================================================= */
